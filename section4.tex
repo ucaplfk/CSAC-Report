@@ -1,0 +1,53 @@
+\section{\label{sec:level1}Applications}
+The development of CSACs has been driven by military applications including navigation when the GNSS signal has purposefully been jammed. This causes the civilian signal, which produces GNSS time ticking, to be rendered useless in this area. The development of GNSS receivers which contain a precise timing capable of maintaining, for a day, an accuracy within 1 ms of UTC enable direct military encrypted signal acquisition for precise positioning $^[$\citep{Fruehauf2001FastClock.}$^]$. CSAC technology therefore can also be used on unmanned aerial vehicles to provide hold-over in GNSS signal outages and prevention against military drone hijacking. Spoofing, which is controlling a target by sending a doctored GNSS signal to the GNSS receiver, has been demonstrated on a drone in Ref. [\citen{unknown}]. 
+
+Jamming is achieved by applying a high power signal at the frequency of the receiver $^[$\citep{article}$^]$. Jamming of civilian GNSS signals is cause for concern in the financial sector, navigation of ships and airplane navigation. Ref. [\citen{Coffed2014TheUtility}] warns of the potential vulnerabilities of GNSS reliance, outlining cases where the illegal jamming devices have overridden GNSS signals used in airport tracking systems and disturbed trading-time stamping.
+
+A selection of recent experimental investigations of the SA.45s CSACs is presented which aim to investigate implementation to satisfy scientific or industrial applications. Measurements of $\sigma_{y}(\tau$) of a selection of miniature atomic clocks, including SA.45s, was completed to calculate the power spectral density (PSD) coefficients of the individual clocks. In Ref. [\citen{Krawinkel2014ApplicationPositioning}] improved kinematic GNSS single point positioning (SPP) is achieved by modeling noise signals using the PSD coefficients applied to an Extended Kalman Filter (EKF). The CPT-GNSS receiver vertical-coordinate precision improves by 26.2 $\%$ when the receiver error is modelled using this technique.  
+ 
+When the CSAC is used as the internal oscillator of the GNSS instead of TXCO, improvements to the synchronisation between the GNSS satellite and the receiver are expected. The GNSS satellite PPS is used for long-term discipline of the CSAC and reduces the drift of the CSAC. Ref. [\citen{Calero2016PositioningSystems}] the CSAC was determined to provide an approximate positioning using only three satellites, instead of requiring four satellites, during static and dynamics testing. 
+
+Temperature calibration of CSAC is completed in Ref. [\citen{Fernandez2017CSACPerformance.}] such that an environmental steering value can be implemented in addition to the frequency drift steering using PPS discipling. Steering for changes in the environment greatly improves stability of the CSAC compared to without. During outages of the GNSS signal > 1 minute the CSAC enables a considerably faster recovery of GNSS receiver positioning compared to the TXCO case. However, concern is expressed for correcting for aging of the CSAC devices. 
+
+An area of application where CSACs are expected to improve timing is in underwater sensing $^[$\citep{Gardner2012AdvancementsOscillators}$^]$. 6 months underwater timing of 13 ocean–bottom seismographs (OBS) each containing a CSAC were compared using the Seascan microprocessor compensated crystal oscillator. The CSAC provided promises high timing accuracy results. However, the study is extended to include 38 CSACs and continued measurements from the original stage up to 4.5 years. Only 5 of the second deployment clocks meet the aging specification required therefore the reliability of the devices is questioned. Concern is expressed in each report for the temperature stability as the vacuum degradation, correcting for changing drift rate and the retraceability. retraceability is the variation in the drift response after switching the device off and back on again $^[$\citep{Gardner2016ATiming}$^]$.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
